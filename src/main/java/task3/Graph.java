@@ -1,13 +1,15 @@
 package task3;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
 import java.util.Set;
 
-@Getter
-@AllArgsConstructor
 public class Graph {
+  private final Set<Integer> vertices;
 
-  private Set<Integer> vertices;
+  public Graph(Set<Integer> vertices) {
+    this.vertices = vertices;
+  }
+
+  public Set<Integer> getVertices() {
+    return vertices;
+  }
 }
