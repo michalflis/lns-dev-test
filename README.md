@@ -44,6 +44,37 @@ Example input:
 1 2 10 7 5 3 6 6 13 0 13
 ```
 
-## Authors
+# Task 3
+
+The first line of input contains a positive number n, next n lines contains pairs of positive integers, where each pair
+identifies a connection between two vertices in a graph. App will give us the answer for the following questions: how
+many separated graphs are in the input.
+
+To start the app run
+Main class in task3 package and follow the instructions on the console.
+
+```
+cd src/main/java/task3
+java Main.java
+```
+
+Example input step 1:
+
+```
+7
+```
+Example input step 2:
+
+```
+1 2
+5 6
+1 5
+9 8
+6 8
+12 15
+13 16
+```
+
+## Author
 
 - Michał Flis
